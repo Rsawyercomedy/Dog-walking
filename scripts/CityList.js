@@ -7,7 +7,6 @@ export const CityList = () => {
     let citiesHTML = "<ol>"
 
     for (const walker of walkers) {
-        debugger
         citiesHTML += `<li>${walker.city}</li>`
     }
 
