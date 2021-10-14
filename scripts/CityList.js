@@ -10,7 +10,7 @@ export const CityList = () => {
         
         citiesHTML += `<li>${walker.city}</li>`
     }
-
+    console.log("Hello world");
     citiesHTML += "</ol>"
 
     return citiesHTML
