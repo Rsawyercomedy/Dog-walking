@@ -107,4 +107,3 @@ export const getWalkers = () => {
 export const getPets = () => {
     return database.pets.map(pet => ({...pet}))
 }
-
