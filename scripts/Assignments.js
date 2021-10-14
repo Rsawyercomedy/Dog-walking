@@ -18,8 +18,8 @@ const findWalkers = (pets, allWalkers) => {
 }
 
 export const Assignments = () => {
-    let assignmentsHTML = "Assignments"
-    assignmentsHTML = "<ol>"
+    let assignmentHTML = ""
+    assignmentHTML += "<ul>"
 
     for (const currentPet of pets) {
          const currentPetWalker = findWalkers (currentPet,walkers)
