@@ -11,5 +11,7 @@
 
 .assignments {
     padding: 1rem 5rem;
+    flex-basis: 24%;
+    border: 1px dotted goldenrod;
 }
 
